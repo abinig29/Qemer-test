@@ -68,6 +68,7 @@ frontend project built using React and Vite. It includes a component-based struc
 
 Project Structure
 
+```
 src/
 ├── components/        # Reusable components used throughout the app
 ├── config/            # Configuration files (e.g., API endpoints)
@@ -81,7 +82,7 @@ src/
 ├── main.tsx           # Entry point for rendering the app
 ├── Router.tsx         # React Router setup for page navigation
 ├── vite-env.d.ts      # Vite environment variable types
-
+```
 
 Environment Variables
 Create a .env file at the root of the project to manage environment variables. These should be prefixed with VITE_ to be accessible in the frontend code.
@@ -96,7 +97,7 @@ Backend Project - Express.js
 Backend project built using Express.js. It includes a modular structure with organized folders for controllers, services, models, middlewares, and more, aimed at creating a scalable and maintainable codebase.
 
 Project Structure
-
+```
 src/
 ├── api/                # API routes definitions
 ├── config/             # Configuration files (e.g., environment settings)
@@ -110,7 +111,7 @@ src/
 ├── service/            # Business logic and service functions
 ├── utils/              # Utility functions
 ├── validation/         # Request validation schemas
-
+```
 
 API Routes are defined in the api/ folder.
 Controllers are organized in the controller/ folder, handling request and response logic.
