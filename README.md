@@ -1,4 +1,4 @@
-# @kal/test-project
+# @qemer
 
 This is a test project named `@qemer`, designed for running multiple apps (server and web) using `pnpm` in a monorepo structure. The project utilizes parallel running of development and start commands for a streamlined workflow.
 
