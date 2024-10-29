@@ -4,9 +4,9 @@
   "description": "this is test project",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm run --parallel dev",
-    "build": "pnpm run --filter server build && pnpm run --filter web build",
-    "start": "pnpm run --parallel start",
+    "dev": "node init && pnpm run --parallel dev",
+    "build": "node init && pnpm run --filter server build && pnpm run --filter web build",
+    "start": "node init && pnpm run --parallel start",
     "ensure": "pnpm -v || npm install -g pnpm && pnpm install"
   },
   "keywords": [],
